@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.banner-area{
+    height: 700px;
+    width: 100%;
+    background-image: url(images/donation3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner-items{
+    padding-top: 200px;
+    color: whitesmoke;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8));
+    height: 500px;
+    width: 100%;
+}
+
+.banner-items h1 {
+    font-size: 80px;
+}
+
+.banner-items p {
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+.donate-btn{
+    height: 30px;
+    width: 150px;
+    background-color: rgba(71, 99, 255, 0.973);
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    margin-left: 45%;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.donate-btn p {
+   font-size: 20px;
+   padding-top: 20px;
+}
+
+/* donate today css */
+.donate-today{
+    height: 550px;
+    width: 50%;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.donate-header h2{
+    font-size: 50px;
+}
+#donate-header-p{
+    font-size: 25px;
+    margin-top: -30px;
+    color: rgb(169, 169, 169);
+}
+.donate-amount {
+    display: flex;
+}
+.amount {
+    height: 80px;
+    width: 150px;
+    background-color: rgba(196, 255, 255, 0.322);
+    margin-right: 20px;
+    font-size: 25px;
+    border-radius: 2px;
+    color: rgba(115, 121, 125, 0.664);
+    padding-top: 50px;
+}
+
+.amount:hover{
+    background-color: rgb(244, 219, 166);
+    color: rgb(255, 145, 0);
+}
+.selected{
+    background-color: rgb(244, 204, 166);
+    color: rgb(255, 174, 0);
+}
+#input-amount{
+    border-bottom: 1px solid black;
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+    padding: 5px 310px;
+    margin: 25px 0;
+}
+.donate-btn-2{
+    height: 35px;
+    width: 160px;
+    background-color: rgba(71, 145, 255, 0.925);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    padding-top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* donate plan  */
+
+.donate-plan{
+    text-align: center;
+    height: 550px;
+    width: 80%;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+.plan-list{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.plan-item{
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    background-color: blanchedalmond;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.img img{
+    height: 80px;
+    width: 60px;
+}
+.plan-item h3{
+    font-size: 22px;
+}
+.plan-item p{
+    font-size: 16px;
+    color: rgba(112, 112, 112);
+}
+
+
+
+
+/* our necessity  */
+
+.our-necessity{
+    display: flex;
+    height: 500px;
+    width: 80%;
+    margin: 100px auto;   
+    padding: 0 20px;
+}
+
+.need-img img{
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+    
+}
+.description{
+    width: 50%;
+    text-align: center;
+    margin-left: 30px;
+}
+.description h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.description p{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(112, 112, 112);
+}
+.donate-btn-3{
+    height: 35px;
+    width: 190px;
+    background-color: tomato;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    padding-top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* get update section  */
+.get-update {
+    text-align: center;
+    height: 450px;
+}
+.box-email{
+    height: 100px;
+    width: 350px;
+    background-color: rgba(255, 228, 196, 0.836);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#subscribe-input{
+    height: 30px;
+    border-color: rgba(0, 110, 255, 0.952);
+    border-radius: 10px;
+    padding: 0 40px;
+}
+#subscribe-btn{
+    height: 30px;
+    border-color: rgba(0, 89, 255, 0.918);
+    border-radius: 10px;
+    padding: 0 40px;
+}
+
+/* footer area  */
+.footer-area{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(160, 159, 95, 0.308);
+    text-align: center;
+}
